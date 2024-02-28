@@ -43,11 +43,17 @@
     align-items: center;
 
 
-    .box{
-        height: 90px;
-        width: 90px;
+    .list{
+        height: 100px;
+        width: 100px;
         background-color:yellow;
         border: 1px solid black;
-       
+        line-height: 100px;
+        text-align: center;
+        list-style: none;
+
+        blue{
+            background-color: blue;
+        }
     }
 }
