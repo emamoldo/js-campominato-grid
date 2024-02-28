@@ -8,4 +8,24 @@
     --camp-footer:#fefeff;
 }
 
+/* Header Section */
 
+.header{
+    width: 900px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+
+    .left{
+        display: flex;
+        gap: 2rem;
+    }
+
+    img{
+        height: 70px;
+        width: 70px;
+    }
+
+}
