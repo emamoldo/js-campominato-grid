@@ -21,11 +21,33 @@
     .left{
         display: flex;
         gap: 2rem;
+        align-items: center;
     }
 
     img{
-        height: 70px;
-        width: 70px;
+        height: 60px;
+        width: 60px;
     }
 
+}
+
+/* Main Section */
+.container{
+    background-color: var(--camp-main-backg);
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 5rem;
+    align-items: center;
+
+
+    .box{
+        height: 90px;
+        width: 90px;
+        background-color:yellow;
+        border: 1px solid black;
+       
+    }
 }
